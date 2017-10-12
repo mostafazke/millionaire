@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Who Wants To Be A Millionaire</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link href="css/normalize.css" type="text/css" rel="stylesheet" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link href="css/responsive.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <audio id="sound"></audio>
+    <div class="startup show">
+        <div class="top">
+        </div>
+        <div class="logo"></div>
+        <div class="info-section">
+            <ul class="money-list">
+                <li>15 - 1 000 000</li>
+                <li class="y-color">14 - 500 000</li>
+                <li class="y-color">13 - 250 000</li>
+                <li class="y-color">12 - 125 000</li>
+                <li class="y-color">11 - 64 000</li>
+                <li>10 - 32 000</li>
+                <li class="y-color">9 - 16 000</li>
+                <li class="y-color">8 - 8 000</li>
+                <li class="y-color">7 - 4 000</li>
+                <li class="y-color">6 - 2 000</li>
+                <li>5 - 1 000</li>
+                <li class="y-color">4 - 500</li>
+                <li class="y-color">3 - 300</li>
+                <li class="y-color">2 - 200</li>
+                <li class="y-color">1 - 100</li>
+            </ul>
+            <div class="chek"></div>
+            <div class="options">
+                <div class="option"></div>
+                <div class="option"></div>
+                <div class="option"></div>
+            </div>
+        </div>
+        <div class="buttuns">
+            <div class="buttun-field hover">
+                <buttun class="start">Start</buttun>
+            </div>
+            <div class="buttun-field hover">
+                <buttun class="info">Info</buttun>
+            </div>
+        </div>
+    </div>
+    <div class="game hide">
+        <div class="top">
+            <div class="exit">
+            </div>
+            <div class="logo">
+            </div>
+            <div class="score y-color">
+                <span class="q-number"></span>
+                <span class="money"></span>
+            </div>
+        </div>
+        <div class="options">
+            <div class="option fifty"></div>
+            <div class="option call"></div>
+            <div class="option aud"></div>
+        </div>
+
+        <div class="question-box">
+            <h2 class="question"></h2>
+            <hr>
+        </div>
+        <div class="answer-box">
+            <div class="answer-field">
+                <span class="y-color">A: </span>
+                <div class="answer"></div>
+
+            </div>
+            <div class="answer-field hover">
+                <span class="y-color">B: </span>
+                <div class="answer"></div>
+
+            </div>
+            <span class="time y-color run"></span>
+            <div class="answer-field hover">
+                <span class="y-color">C: </span>
+                <div class="answer"></div>
+
+            </div>
+            <div class="answer-field hover">
+                <span class="y-color">D: </span>
+                <div class="answer"></div>
+            </div>
+            <div class="clear"></div>
+            <div class="hr-container">
+                <hr>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
